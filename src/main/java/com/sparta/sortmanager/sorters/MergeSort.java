@@ -1,6 +1,6 @@
-package com.sparta.sortmanager.model;
+package com.sparta.sortmanager.sorters;
 
-import com.sparta.sortmanager.view.Printer;
+import com.sparta.sortmanager.display.Printer;
 
 public class MergeSort implements Sorter {
 

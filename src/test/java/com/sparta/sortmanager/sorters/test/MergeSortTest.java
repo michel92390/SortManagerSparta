@@ -1,13 +1,10 @@
-package com.sparta.sortmanager.model.test;
+package com.sparta.sortmanager.sorters.test;
 
-import com.sparta.sortmanager.model.BubbleSort;
-import com.sparta.sortmanager.model.MergeSort;
+import com.sparta.sortmanager.sorters.MergeSort;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MergeSortTest {
     private MergeSort mergeSort;

@@ -1,9 +1,6 @@
 package com.sparta.sortmanager.start;
 
-import com.sparta.sortmanager.model.*;
-
-import java.util.Arrays;
-import java.util.Scanner;
+import com.sparta.sortmanager.sorters.*;
 
 public class DisplayManager {
 

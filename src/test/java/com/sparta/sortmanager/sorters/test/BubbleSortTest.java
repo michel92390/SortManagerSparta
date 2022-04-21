@@ -1,9 +1,7 @@
-package com.sparta.sortmanager.model.test;
+package com.sparta.sortmanager.sorters.test;
 
-import com.sparta.sortmanager.model.BubbleSort;
+import com.sparta.sortmanager.sorters.BubbleSort;
 import org.junit.jupiter.api.*;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class BubbleSortTest {
     private BubbleSort bubbleSort;

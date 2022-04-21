@@ -1,6 +1,6 @@
 package com.sparta.sortmanager.content;
 
-import com.sparta.sortmanager.model.MergeSort;
+import com.sparta.sortmanager.sorters.MergeSort;
 
 public class GetTimes {
     public static double[] getAllTimes(int[] arrayToSort) {

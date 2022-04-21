@@ -1,4 +1,4 @@
-package com.sparta.sortmanager.view;
+package com.sparta.sortmanager.display;
 
 import java.util.Arrays;
 
