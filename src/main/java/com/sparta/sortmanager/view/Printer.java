@@ -4,56 +4,27 @@ import java.util.Arrays;
 
 public class Printer {
 
-    public static final String ANSI_RED = "\u001B[31m";
-    public static final String ANSI_RESET = "\u001B[0m";
-    public static final String ANSI_GREEN = "\u001B[32m";
-    public static final String ANSI_BLUE = "\u001B[34m";
-
     public static void printArray(int[] arrayToPrint, boolean sorted) {
-        if (arrayToPrint.length == 0) {
-            return;
-        }
         if (sorted) {
-            System.out.println(ANSI_GREEN + "Sorted Array: ");
+            System.out.println("Sorted Array: ");
         } else {
-            System.out.println(ANSI_RED + "Unsorted Array: ");
+            System.out.println("Original Array: ");
         }
-        String arrayAsString = "";
-        for (int number : arrayToPrint) {
-            arrayAsString += number + ", ";
-        }
-//        Substring used to remove tailing comma
-        System.out.println(arrayAsString.substring(0, arrayAsString.length() - 2) + "\n");
+        System.out.println(Arrays.toString(arrayToPrint));
     }
 
-
     public static void printArray(int[] arrayToPrint) {
-        if (arrayToPrint.length == 0) {
-            return;
-        }
-        String arrayAsString = "";
-        for (int number : arrayToPrint) {
-            arrayAsString += number + ", ";
-        }
-//        Substring used to remove tailing comma
-        System.out.println(arrayAsString.substring(0, arrayAsString.length() - 2) + "\n");
+        System.out.println(Arrays.toString(arrayToPrint));
     }
 
     public static void printArray(double[] arrayToPrint) {
-        if (arrayToPrint.length == 0) {
-            return;
-        }
-        String arrayAsString = "";
-        for (double number : arrayToPrint) {
-            arrayAsString += number + ", ";
-        }
-//        Substring used to remove tailing comma
-        System.out.println(arrayAsString.substring(0, arrayAsString.length() - 2) + "\n");
+        System.out.println(Arrays.toString(arrayToPrint));
     }
 
     public static void printTimeTaken(double timeTaken, String sorter) {
-        System.out.println(Printer.ANSI_BLUE +
-                "Using " + sorter + " Sort  ---  Time taken to sort: " +
-                timeTaken / 1000000 + "ms" + ANSI_RESET);
+        System.out.println("-----------------------------------------------------");
+        System.out.println(sorter + " Sort took: " +
+                timeTaken / 1000000 + "ms to be sorted");
+        System.out.println("-----------------------------------------------------");
     }
 }
