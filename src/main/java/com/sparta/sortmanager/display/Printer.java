@@ -13,10 +13,6 @@ public class Printer {
         System.out.println(Arrays.toString(arrayToPrint));
     }
 
-    public static void printArray(int[] arrayToPrint) {
-        System.out.println(Arrays.toString(arrayToPrint));
-    }
-
     public static void printArray(double[] arrayToPrint) {
         System.out.println(Arrays.toString(arrayToPrint));
     }
