@@ -3,3 +3,5 @@ File Log: [ERROR] 2022-04-22 15:35:08,938 main com.sparta.sortmanager.display.Us
 File Log: [ERROR] 2022-04-22 15:51:34,650 main com.sparta.sortmanager.display.UserChoice - The array length(0) could not be empty
 File Log: [ERROR] 2022-04-22 15:51:37,226 main com.sparta.sortmanager.display.UserChoice - The array length should be longer than 1.
 File Log: [ERROR] 2022-04-22 15:51:42,590 main com.sparta.sortmanager.display.UserChoice - The array should not have more than 20 items
+File Log: [ERROR] 2022-04-23 19:59:47,585 main com.sparta.sortmanager.display.UserChoice - wrongInput
+File Log: [ERROR] 2022-04-23 20:05:18,662 main com.sparta.sortmanager.display.UserChoice - wrong choice

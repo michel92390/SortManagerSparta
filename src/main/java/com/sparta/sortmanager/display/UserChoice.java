@@ -19,8 +19,8 @@ public class UserChoice {
             // then send to chooseSorter method with inputUser as parameter.
             UserChoice.chooseSorter(inputUser);
         } catch (InputMismatchException | NotSorterException e) {
-            logger.error("wrongInput");
-            System.out.println("wrongInput");
+            logger.error("wrong choice");
+            System.out.println("wrong choice");
         }
 
     }
